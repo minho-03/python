@@ -36,9 +36,16 @@ while i > 0:
 
 # 7. 반복문을 사용해 "*"를 5번 이어서 출력하세요
 # 결과: "*****"
+#방법1
 i = 0
 sum = ""
-while i < 6:
+while i < 5:
     sum = sum + "*"
     i = i + 1
     print(sum)
+
+#방법2
+i = 0
+while i < 5:
+    print("*", end="") #끝나는 문자
+    i = i + 1
